@@ -28,6 +28,7 @@ jobs:
         run: |
           cd build/web
           git init
+          git config --global init.defaultBranch main
           git config --global user.email whosramoss@gmail.com
           git config --global user.name whosramoss
           git status
